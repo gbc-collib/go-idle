@@ -55,9 +55,12 @@ func (e *Engine) Pause() {
 }
 
 func NewEngine() *Engine {
-	return &Engine{
-		systems:  []System{},
+	rs := &ResourceSystem{}
+	systems := []System{rs}
+	engine := &Engine{
+		systems:  systems,
 		lastTick: time.Now(),
 		running:  false,
 	}
+	return engine
 }

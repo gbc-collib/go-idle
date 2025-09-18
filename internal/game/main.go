@@ -30,3 +30,11 @@ func NewGame() (*Game, error) {
 func (g *Game) Update(){
 	g.engine.Update(g.state)
 }
+
+func (g *Game) Start(){
+	g.engine.Start()
+}
+
+func (g *Game) Stop(){
+	g.engine.Stop()
+}
