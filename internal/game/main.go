@@ -5,8 +5,8 @@ import (
 )
 
 type Game struct {
-	engine *Engine
-	state  *GameState
+	Engine *Engine
+	State  *GameState
 }
 
 func NewGame() (*Game, error) {
@@ -21,20 +21,30 @@ func NewGame() (*Game, error) {
 	slog.Debug("Created Engine", "Engine", engine)
 
 	return &Game{
-		engine: engine,
-		state:  state,
+		Engine: engine,
+		State:  state,
 	}, nil
 }
 
 
 func (g *Game) Update(){
-	g.engine.Update(g.state)
+	g.Engine.Update(g.State)
 }
 
 func (g *Game) Start(){
-	g.engine.Start()
+	g.Engine.Start()
 }
 
 func (g *Game) Stop(){
-	g.engine.Stop()
+	g.Engine.Stop()
+}
+
+func (g *Game) QueueInput(token InputToken) {
+    if inputSys := GetSystem[*InputSystem](g.Engine); inputSys != nil {
+        inputSys.QueueInput(token)
+    }
+}
+
+func (g *Game) GetState() GameState{
+	return *g.State
 }

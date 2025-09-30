@@ -7,7 +7,7 @@ import (
 )
 
 type System interface {
-	Process(state *GameState, deltaTime time.Duration)
+	Process(state *GameState, deltaTime time.Duration) error
 }
 
 type Engine struct {
@@ -54,9 +54,22 @@ func (e *Engine) Pause() {
 	e.running = false
 }
 
+func GetSystem[T System](e *Engine) T {
+	for _, system := range e.systems {
+		if s, ok := system.(T); ok {
+			return s
+		}
+	}
+	var zero T
+	return zero
+}
+
 func NewEngine() *Engine {
 	rs := &ResourceSystem{}
-	systems := []System{rs}
+	is := NewInputSystem()
+	ts := &TimerSystem{}
+	is.RegisterHandler(ManualCode, HandleManualCode)
+	systems := []System{rs, is, ts}
 	engine := &Engine{
 		systems:  systems,
 		lastTick: time.Now(),
@@ -64,3 +77,5 @@ func NewEngine() *Engine {
 	}
 	return engine
 }
+
+

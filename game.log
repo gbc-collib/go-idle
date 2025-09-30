@@ -1,0 +1,600 @@
+time=2025-09-24T18:00:40.156-04:00 level=INFO msg="Creating new Game"
+time=2025-09-24T18:00:40.157-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[]}"
+time=2025-09-24T18:00:40.157-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x10463c340 0x14000108380] lastTick:{wall:13991901611025143568 ext:5720418 loc:0x104615300} running:false}"
+time=2025-09-24T18:00:41.165-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:41.165-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:41.165-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:41.165-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:41.165-04:00
+time=2025-09-24T18:00:42.176-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:42.176-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:42.176-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:42.176-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:42.176-04:00
+time=2025-09-24T18:00:43.184-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:43.184-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:43.184-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:43.184-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:43.184-04:00
+time=2025-09-24T18:00:44.193-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:44.193-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:44.193-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:44.193-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:44.193-04:00
+time=2025-09-24T18:00:45.202-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:45.202-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:45.202-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:45.203-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:45.203-04:00
+time=2025-09-24T18:00:46.210-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:46.210-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:46.210-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:46.210-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:46.210-04:00
+time=2025-09-24T18:00:47.220-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:47.220-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:47.220-04:00 level=WARN msg="No handler registered" input=manualCode
+time=2025-09-24T18:00:47.220-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:47.220-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:47.220-04:00
+time=2025-09-24T18:00:48.228-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:48.228-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:48.228-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:48.228-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:48.228-04:00
+time=2025-09-24T18:00:49.238-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:49.238-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:49.238-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:49.238-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:49.238-04:00
+time=2025-09-24T18:00:50.245-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:50.245-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:50.245-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:50.245-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:50.245-04:00
+time=2025-09-24T18:00:51.254-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:51.254-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:51.254-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:51.254-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:51.254-04:00
+time=2025-09-24T18:00:52.262-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:52.262-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:52.262-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:52.262-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:52.262-04:00
+time=2025-09-24T18:00:53.273-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:53.273-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:53.273-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:53.273-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:53.273-04:00
+time=2025-09-24T18:00:54.279-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:54.279-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:54.279-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:54.279-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:54.279-04:00
+time=2025-09-24T18:00:55.289-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[]}"
+time=2025-09-24T18:00:55.289-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-24T18:00:55.289-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-24T18:00:55.289-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-24T18:00:55.289-04:00
+time=2025-09-28T13:35:20.312-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T13:35:20.313-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:20.313-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x10089c340 0x1400012e380] lastTick:{wall:13992255602385792888 ext:6168918 loc:0x100875300} running:false}"
+time=2025-09-28T13:35:21.318-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:21.318-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:21.318-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:21.318-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:21.318-04:00
+time=2025-09-28T13:35:22.328-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:22.329-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:22.329-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:22.329-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:22.329-04:00
+time=2025-09-28T13:35:23.333-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:23.333-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:23.333-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:23.333-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:23.333-04:00
+time=2025-09-28T13:35:24.343-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:24.343-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:24.343-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:24.343-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:24.343-04:00
+time=2025-09-28T13:35:25.349-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:25.349-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:25.349-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:25.349-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:25.349-04:00
+time=2025-09-28T13:35:26.359-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:26.359-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:26.359-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:26.359-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:26.359-04:00
+time=2025-09-28T13:35:27.366-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:35:27.366-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:35:27.366-04:00 level=WARN msg="No handler registered" input=manualCode
+time=2025-09-28T13:35:27.366-04:00 level=WARN msg="No handler registered" input=manualCode
+time=2025-09-28T13:35:27.366-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:35:27.366-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:35:27.366-04:00
+time=2025-09-28T13:36:31.901-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T13:36:31.902-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:36:31.902-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x100d7d740
+time=2025-09-28T13:36:31.902-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x100f84340 0x14000108380] lastTick:{wall:13992255679210432392 ext:4994668 loc:0x100f5d300} running:false}"
+time=2025-09-28T13:36:32.907-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:36:32.907-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:36:32.907-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T13:36:32.907-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:36:32.907-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:36:32.907-04:00
+time=2025-09-28T13:36:33.919-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759080992907818000 RemainingTime:5s OnComplete:0x100d7dcf0}]}"
+time=2025-09-28T13:36:33.919-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:36:33.919-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T13:36:33.919-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:36:33.919-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:36:33.919-04:00
+time=2025-09-28T13:36:34.923-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759080992907818000 RemainingTime:5s OnComplete:0x100d7dcf0} {ID:manual_code_1759080993919389000 RemainingTime:5s OnComplete:0x100d7dcf0}]}"
+time=2025-09-28T13:36:34.923-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:36:34.923-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T13:36:34.923-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:36:34.923-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:36:34.923-04:00
+time=2025-09-28T13:43:56.847-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T13:43:56.848-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:43:56.848-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x104e0ef70
+time=2025-09-28T13:43:56.848-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x10501c3c0 0x14000122380] lastTick:{wall:13992256156971544072 ext:5135334 loc:0x104ff5380} running:false}"
+time=2025-09-28T13:43:57.853-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:43:57.853-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:43:57.853-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:43:57.853-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:43:57.853-04:00
+time=2025-09-28T13:43:58.863-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T13:43:58.863-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T13:43:58.863-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T13:43:58.863-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T13:43:58.863-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T13:43:58.863-04:00
+time=2025-09-28T14:01:07.157-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:01:07.157-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:01:07.157-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x104d3ef70
+time=2025-09-28T14:01:07.157-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x104f4c3c0 0x14000108380] lastTick:{wall:13992257263308846616 ext:5661501 loc:0x104f25380} running:false}"
+time=2025-09-28T14:01:08.164-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:01:08.164-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:01:08.164-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:08.164-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:01:08.164-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:01:08.164-04:00
+time=2025-09-28T14:01:09.175-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082468164910000 RemainingTime:5s OnComplete:0x104d3f530 OriginalTime:5s}]}"
+time=2025-09-28T14:01:09.175-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:01:09.175-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:01:09.175-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:01:09.175-04:00
+time=2025-09-28T14:01:10.179-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082468164910000 RemainingTime:5s OnComplete:0x104d3f530 OriginalTime:5s}]}"
+time=2025-09-28T14:01:10.179-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:01:10.179-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:10.179-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:10.179-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:01:10.179-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:01:10.179-04:00
+time=2025-09-28T14:01:11.189-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082468164910000 RemainingTime:5s OnComplete:0x104d3f530 OriginalTime:5s} {ID:manual_code_1759082470179686000 RemainingTime:5s OnComplete:0x104d3f530 OriginalTime:5s} {ID:manual_code_1759082470179711000 RemainingTime:5s OnComplete:0x104d3f530 OriginalTime:5s}]}"
+time=2025-09-28T14:01:11.189-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:01:11.189-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:11.189-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:11.189-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:11.189-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:01:11.189-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:01:11.189-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:01:11.189-04:00
+time=2025-09-28T14:07:08.913-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:07:08.913-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:07:08.913-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x10216ef70
+time=2025-09-28T14:07:08.913-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x10237c3c0 0x140000ae380] lastTick:{wall:13992257651685214080 ext:4958501 loc:0x102355380} running:false}"
+time=2025-09-28T14:07:09.919-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:07:09.919-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:09.919-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:09.919-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:09.919-04:00
+time=2025-09-28T14:07:10.929-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:07:10.929-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:10.929-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:10.929-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:10.929-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:10.929-04:00
+time=2025-09-28T14:07:11.935-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:11.935-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:11.935-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:11.935-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:11.935-04:00
+time=2025-09-28T14:07:12.945-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:12.945-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:12.945-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:12.945-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:12.945-04:00
+time=2025-09-28T14:07:13.951-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:13.951-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:13.951-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:13.951-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:13.951-04:00
+time=2025-09-28T14:07:14.959-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:14.960-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:14.960-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:14.960-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:14.960-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:14.960-04:00
+time=2025-09-28T14:07:15.966-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082834960076000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:15.966-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:15.966-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:15.966-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:15.966-04:00
+time=2025-09-28T14:07:16.975-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082834960076000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:16.976-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:16.976-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:16.976-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:16.976-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:16.976-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:16.976-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:16.976-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:16.976-04:00
+time=2025-09-28T14:07:17.982-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082830929291000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082834960076000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082836976241000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082836976273000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082836976348000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s} {ID:manual_code_1759082836976368000 RemainingTime:5s OnComplete:0x10216f530 OriginalTime:5s}]}"
+time=2025-09-28T14:07:17.982-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:07:17.982-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:17.982-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:17.982-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:17.982-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:07:17.982-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:07:17.982-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:07:17.982-04:00
+time=2025-09-28T14:09:28.570-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:09:28.570-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:09:28.570-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x100256f70
+time=2025-09-28T14:09:28.570-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x1004643c0 0x140000923a0] lastTick:{wall:13992257801666512440 ext:4756751 loc:0x10043d380} running:false}"
+time=2025-09-28T14:09:29.577-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:09:29.577-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:09:29.577-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:09:29.577-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:09:29.577-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:09:29.577-04:00
+time=2025-09-28T14:09:30.588-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082969577229000 RemainingTime:5s OnComplete:0x100257610 OriginalTime:5s}]}"
+time=2025-09-28T14:09:30.588-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:09:30.588-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:09:30.588-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:09:30.588-04:00
+time=2025-09-28T14:09:31.594-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082969577229000 RemainingTime:5s OnComplete:0x100257610 OriginalTime:5s}]}"
+time=2025-09-28T14:09:31.594-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:09:31.594-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:09:31.594-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:09:31.594-04:00
+time=2025-09-28T14:09:32.603-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082969577229000 RemainingTime:5s OnComplete:0x100257610 OriginalTime:5s}]}"
+time=2025-09-28T14:09:32.603-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:09:32.603-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:09:32.603-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:09:32.603-04:00
+time=2025-09-28T14:09:33.608-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759082969577229000 RemainingTime:5s OnComplete:0x100257610 OriginalTime:5s}]}"
+time=2025-09-28T14:09:33.608-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:09:33.608-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:09:33.608-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:09:33.608-04:00
+time=2025-09-28T14:11:10.145-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:11:10.145-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:11:10.146-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x1001d6f70
+time=2025-09-28T14:11:10.146-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x1003e43c0 0x1400007c380] lastTick:{wall:13992257910763449488 ext:4932751 loc:0x1003bd380} running:false}"
+time=2025-09-28T14:11:11.151-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:11:11.151-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:11.151-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:11:11.151-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:11.151-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:11.151-04:00
+time=2025-09-28T14:11:12.162-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:12.162-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:12.162-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:12.162-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:12.162-04:00
+time=2025-09-28T14:11:13.168-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:13.168-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:13.168-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:13.168-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:13.168-04:00
+time=2025-09-28T14:11:14.178-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:14.178-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:14.178-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:14.178-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:14.178-04:00
+time=2025-09-28T14:11:15.184-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:15.184-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:15.184-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:15.184-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:15.184-04:00
+time=2025-09-28T14:11:16.194-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:16.194-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:16.194-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:16.194-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:16.194-04:00
+time=2025-09-28T14:11:17.200-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:17.200-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:17.200-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:17.200-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:17.200-04:00
+time=2025-09-28T14:11:18.210-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:18.210-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:18.210-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:18.210-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:18.210-04:00
+time=2025-09-28T14:11:19.218-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083071151431000 RemainingTime:5s OnComplete:0x1001d7610 OriginalTime:5s}]}"
+time=2025-09-28T14:11:19.218-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:19.218-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:19.218-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:19.218-04:00
+time=2025-09-28T14:11:57.534-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:11:57.534-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:11:57.534-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x1024c6f90
+time=2025-09-28T14:11:57.534-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x1026d43c0 0x14000122380 0x1026d43c0] lastTick:{wall:13992257961617740216 ext:4643584 loc:0x1026ad380} running:false}"
+time=2025-09-28T14:11:58.539-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:11:58.539-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:58.539-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:11:58.539-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:58.539-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:11:58.539-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:11:58.539-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:58.539-04:00
+time=2025-09-28T14:11:59.548-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083118539198000 RemainingTime:3.99544925s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:11:59.549-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:11:59.549-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:11:59.549-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:11:59.549-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:11:59.549-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:11:59.549-04:00
+time=2025-09-28T14:12:00.554-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083118539198000 RemainingTime:2.985760416s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:00.554-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:00.554-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:00.554-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:12:00.554-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:00.554-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:00.554-04:00
+time=2025-09-28T14:12:01.562-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083118539198000 RemainingTime:1.980585333s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:01.562-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:01.562-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:01.562-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:12:01.562-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:01.562-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:01.562-04:00
+time=2025-09-28T14:12:02.569-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083118539198000 RemainingTime:972.789999ms OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:02.570-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:02.570-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:02.570-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:12:02.570-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759083118539198000
+time=2025-09-28T14:12:02.570-04:00 level=INFO msg="Feature completed!" features=1
+time=2025-09-28T14:12:02.570-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:02.570-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:02.570-04:00
+time=2025-09-28T14:12:03.577-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:12:03.577-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:03.577-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:03.577-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:03.577-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:03.577-04:00
+time=2025-09-28T14:12:04.585-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:12:04.585-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:04.585-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:12:04.585-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:04.585-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:04.585-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:04.585-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:04.585-04:00
+time=2025-09-28T14:12:05.590-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083124585809000 RemainingTime:3.991569834s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:05.591-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:05.591-04:00 level=INFO msg="Coding Already Active."
+time=2025-09-28T14:12:05.591-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:05.591-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:05.591-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:05.591-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:05.591-04:00
+time=2025-09-28T14:12:06.601-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083124585809000 RemainingTime:2.986658709s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:06.601-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:06.601-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:06.601-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:06.601-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:06.601-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:06.601-04:00
+time=2025-09-28T14:12:07.605-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083124585809000 RemainingTime:1.976316501s OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:07.605-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:07.605-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:07.605-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:07.605-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:07.605-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:07.605-04:00
+time=2025-09-28T14:12:08.613-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083124585809000 RemainingTime:973.053792ms OnComplete:0x1024c7950 OriginalTime:5s}]}"
+time=2025-09-28T14:12:08.613-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:08.613-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:08.613-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:08.613-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759083124585809000
+time=2025-09-28T14:12:08.613-04:00 level=INFO msg="Feature completed!" features=2
+time=2025-09-28T14:12:08.613-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:08.613-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:08.613-04:00
+time=2025-09-28T14:12:09.619-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:12:09.620-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:12:09.620-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:12:09.620-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:12:09.620-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:12:09.620-04:00
+time=2025-09-28T14:13:03.764-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T14:13:03.765-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:03.765-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x1029def90
+time=2025-09-28T14:13:03.765-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x102bec3c0 0x14000122380 0x102bec3c0] lastTick:{wall:13992258032715575600 ext:4937167 loc:0x102bc5380} running:false}"
+time=2025-09-28T14:13:04.769-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:04.769-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:04.769-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:13:04.769-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:04.769-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:04.769-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:04.769-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:04.769-04:00
+time=2025-09-28T14:13:05.776-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083184769130000 RemainingTime:3.996339291s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:05.777-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:05.777-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:05.777-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:05.777-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:05.777-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:05.777-04:00
+time=2025-09-28T14:13:06.784-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083184769130000 RemainingTime:2.988522249s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:06.784-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:06.784-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:06.784-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:06.784-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:06.784-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:06.784-04:00
+time=2025-09-28T14:13:07.791-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083184769130000 RemainingTime:1.981079207s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:07.791-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:07.791-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:07.791-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:07.791-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:07.791-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:07.791-04:00
+time=2025-09-28T14:13:08.800-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083184769130000 RemainingTime:974.233165ms OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:08.800-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:08.800-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:08.800-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:08.800-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759083184769130000
+time=2025-09-28T14:13:08.800-04:00 level=INFO msg="Feature completed!" features=1
+time=2025-09-28T14:13:08.800-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:08.800-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:08.800-04:00
+time=2025-09-28T14:13:09.806-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:09.806-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:09.806-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:09.806-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:09.806-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:09.806-04:00
+time=2025-09-28T14:13:10.816-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:10.816-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:10.816-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:10.817-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:10.817-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:10.817-04:00
+time=2025-09-28T14:13:11.823-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:11.823-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:11.823-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T14:13:11.823-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:11.823-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:11.823-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:11.823-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:11.823-04:00
+time=2025-09-28T14:13:12.833-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083191823554000 RemainingTime:3.993597833s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:12.833-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:12.833-04:00 level=INFO msg="Coding Already Active."
+time=2025-09-28T14:13:12.833-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:12.833-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:12.833-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:12.833-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:12.833-04:00
+time=2025-09-28T14:13:13.838-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083191823554000 RemainingTime:2.983943541s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:13.839-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:13.839-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:13.839-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:13.839-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:13.839-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:13.839-04:00
+time=2025-09-28T14:13:14.849-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083191823554000 RemainingTime:1.978498708s OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:14.849-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:14.850-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:14.850-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:14.850-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:14.850-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:14.850-04:00
+time=2025-09-28T14:13:15.856-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759083191823554000 RemainingTime:967.769708ms OnComplete:0x1029df950 OriginalTime:5s}]}"
+time=2025-09-28T14:13:15.856-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:15.856-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:15.856-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:15.856-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759083191823554000
+time=2025-09-28T14:13:15.856-04:00 level=INFO msg="Feature completed!" features=2
+time=2025-09-28T14:13:15.856-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:15.856-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:15.856-04:00
+time=2025-09-28T14:13:16.866-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:16.866-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:16.866-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:16.866-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:16.866-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:16.866-04:00
+time=2025-09-28T14:13:17.873-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:17.873-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:17.874-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:17.874-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:17.874-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:17.874-04:00
+time=2025-09-28T14:13:18.883-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:18.883-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:18.883-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:18.883-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:18.883-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:18.883-04:00
+time=2025-09-28T14:13:19.890-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:19.890-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:19.890-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:19.890-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:19.890-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:19.890-04:00
+time=2025-09-28T14:13:20.900-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T14:13:20.900-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T14:13:20.900-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T14:13:20.900-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T14:13:20.900-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T14:13:20.900-04:00
+time=2025-09-28T16:26:44.385-04:00 level=INFO msg="Creating new Game"
+time=2025-09-28T16:26:44.385-04:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:44.385-04:00 level=INFO msg="Registered Handle" input=manualCode handler=0x100c16f90
+time=2025-09-28T16:26:44.385-04:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x100e243c0 0x14000122380 0x100e243c0] lastTick:{wall:13992266644819382904 ext:7062376 loc:0x100dfd380} running:false}"
+time=2025-09-28T16:26:45.393-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:45.393-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:45.393-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:45.394-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:45.394-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:45.394-04:00
+time=2025-09-28T16:26:46.404-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:46.404-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:46.404-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:46.404-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:46.404-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:46.404-04:00
+time=2025-09-28T16:26:47.411-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:47.411-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:47.411-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T16:26:47.411-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:47.411-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:47.411-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:47.411-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:47.411-04:00
+time=2025-09-28T16:26:48.421-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091207411631000 RemainingTime:3.993443375s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:48.421-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:48.421-04:00 level=INFO msg="Coding Already Active."
+time=2025-09-28T16:26:48.421-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:48.421-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:48.421-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:48.421-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:48.421-04:00
+time=2025-09-28T16:26:49.427-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091207411631000 RemainingTime:2.983692042s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:49.427-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:49.427-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:49.427-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:49.427-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:49.427-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:49.427-04:00
+time=2025-09-28T16:26:50.437-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091207411631000 RemainingTime:1.97846425s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:50.437-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:50.437-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:50.437-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:50.437-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:50.437-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:50.437-04:00
+time=2025-09-28T16:26:51.443-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091207411631000 RemainingTime:968.771333ms OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:51.444-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:51.444-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:51.444-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:51.444-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759091207411631000
+time=2025-09-28T16:26:51.444-04:00 level=INFO msg="Feature completed!" features=1
+time=2025-09-28T16:26:51.444-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:51.444-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:51.444-04:00
+time=2025-09-28T16:26:52.455-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:52.455-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:52.455-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:52.455-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:52.455-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:52.455-04:00
+time=2025-09-28T16:26:53.460-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:53.460-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:53.460-04:00 level=INFO msg="Started coding..." duration=5s
+time=2025-09-28T16:26:53.460-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:53.460-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:53.460-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:53.460-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:53.460-04:00
+time=2025-09-28T16:26:54.469-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091213460218000 RemainingTime:3.995267666s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:54.469-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:54.469-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:54.469-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:54.469-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:54.469-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:54.469-04:00
+time=2025-09-28T16:26:55.474-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091213460218000 RemainingTime:2.986482749s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:55.474-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:55.474-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:55.474-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:55.474-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:55.474-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:55.474-04:00
+time=2025-09-28T16:26:56.483-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091213460218000 RemainingTime:1.981322707s OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:56.483-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:56.483-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:56.483-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:56.483-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:56.483-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:56.483-04:00
+time=2025-09-28T16:26:57.490-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:1 memory:0] Buildings:map[] ActiveTimers:[{ID:manual_code_1759091213460218000 RemainingTime:972.601332ms OnComplete:0x100c17950 OriginalTime:5s}]}"
+time=2025-09-28T16:26:57.491-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:57.491-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:57.491-04:00 level=INFO msg="Timer Processed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:57.491-04:00 level=INFO msg="Timer Completed" Timer=manual_code_1759091213460218000
+time=2025-09-28T16:26:57.491-04:00 level=INFO msg="Feature completed!" features=2
+time=2025-09-28T16:26:57.491-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:57.491-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:57.491-04:00
+time=2025-09-28T16:26:58.499-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:58.499-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:58.499-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:58.499-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:58.499-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:58.499-04:00
+time=2025-09-28T16:26:59.508-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:26:59.508-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:26:59.508-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:26:59.508-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:26:59.508-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:26:59.508-04:00
+time=2025-09-28T16:27:00.516-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:00.517-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:00.517-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:00.517-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:00.517-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:00.517-04:00
+time=2025-09-28T16:27:01.528-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:01.528-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:01.528-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:01.528-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:01.528-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:01.528-04:00
+time=2025-09-28T16:27:02.539-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:02.539-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:02.539-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:02.539-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:02.539-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:02.539-04:00
+time=2025-09-28T16:27:03.547-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:03.548-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:03.548-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:03.548-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:03.548-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:03.548-04:00
+time=2025-09-28T16:27:04.557-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:04.557-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:04.557-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:04.557-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:04.557-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:04.557-04:00
+time=2025-09-28T16:27:05.563-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:05.564-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:05.564-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:05.564-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:05.564-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:05.564-04:00
+time=2025-09-28T16:27:06.573-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:06.573-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:06.573-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:06.573-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:06.573-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:06.573-04:00
+time=2025-09-28T16:27:07.580-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:07.580-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:07.580-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:07.580-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:07.580-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:07.580-04:00
+time=2025-09-28T16:27:08.589-04:00 level=INFO msg="Resource System processed" state="&{Resources:map[cpu:0 features:2 memory:0] Buildings:map[] ActiveTimers:[]}"
+time=2025-09-28T16:27:08.589-04:00 level=DEBUG msg="Processed System" systemType=*game.ResourceSystem
+time=2025-09-28T16:27:08.589-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
+time=2025-09-28T16:27:08.589-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
+time=2025-09-28T16:27:08.589-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-09-28T16:27:08.589-04:00
