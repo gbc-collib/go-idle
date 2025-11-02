@@ -68,7 +68,6 @@ func NewEngine() *Engine {
 	rs := &ResourceSystem{}
 	is := NewInputSystem()
 	ts := &TimerSystem{}
-	is.RegisterHandler(ManualCode, HandleManualCode)
 	systems := []System{rs, is, ts}
 	engine := &Engine{
 		systems:  systems,
@@ -77,5 +76,4 @@ func NewEngine() *Engine {
 	}
 	return engine
 }
-
 

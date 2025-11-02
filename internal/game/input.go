@@ -6,65 +6,39 @@ import (
 	"time"
 )
 
-type InputHandlerFunc = func(*GameState, time.Duration) error
-
-type InputToken string
-
-const (
-	ManualClick InputToken = "manualClick"
-	ManualCode  InputToken = "manualCode"
-)
-
-type InputSystem struct {
-	inputHandlers map[InputToken]InputHandlerFunc
-	inputQueue    []InputToken
+// Command interface - all commands implement this
+type Command interface {
+	Execute(*GameState) error
 }
 
-func NewInputSystem() *InputSystem {
-	return &InputSystem{
-		inputHandlers: make(map[InputToken]InputHandlerFunc), // Add this
-		inputQueue:    make([]InputToken, 0),                 // And this
-	}
+// Concrete command types
+type ManualClickCommand struct{}
+type ManualCodeCommand struct{}
+type PurchaseBuildingCommand struct {
+	BuildingType string
 }
 
-func (is *InputSystem) Process(state *GameState, dt time.Duration) error {
-	for _, input := range is.inputQueue {
-		handler := is.inputHandlers[input]
-		if handler == nil {
-			slog.Warn("No handler registered", "input", input)
-			continue
-		}
-		err := handler(state, dt)
-		if err != nil {
-			return err
-		}
+// Execute implementations
+func (c *ManualClickCommand) Execute(state *GameState) error {
+	if state.Resources == nil {
+		state.Resources = make(map[string]float64)
 	}
-	is.inputQueue = is.inputQueue[:0]
+	state.Resources["code"] += 1.0
 	return nil
 }
 
-func (is *InputSystem) RegisterHandler(input InputToken, handler InputHandlerFunc) {
-	is.inputHandlers[input] = handler
-	slog.Info("Registered Handle", "input", input, "handler", handler)
-}
-
-func (is *InputSystem) QueueInput(input InputToken) {
-	is.inputQueue = append(is.inputQueue, input)
-}
-
-func HandleManualCode(state *GameState, dt time.Duration) error {
-	// Start a 5-second coding timer
+func (c *ManualCodeCommand) Execute(state *GameState) error {
 	manualCodeId := "manual_code_"
 	_, alreadyActive := state.GetTimer(manualCodeId)
 	if alreadyActive {
 		slog.Info("Coding Already Active.")
 		return nil
 	}
+
 	timer := Timer{
 		ID:            manualCodeId + fmt.Sprint(time.Now().UnixNano()),
 		RemainingTime: 5 * time.Second,
 		OnComplete: func(gameState *GameState) {
-			// This runs when timer finishes
 			if gameState.Resources == nil {
 				gameState.Resources = make(map[string]float64)
 			}
@@ -73,8 +47,54 @@ func HandleManualCode(state *GameState, dt time.Duration) error {
 		},
 		OriginalTime: 5 * time.Second,
 	}
-
 	state.ActiveTimers = append(state.ActiveTimers, timer)
 	slog.Info("Started coding...", "duration", "5s")
 	return nil
 }
+
+func (c *PurchaseBuildingCommand) Execute(state *GameState) error {
+	building, exists := state.Buildings[c.BuildingType]
+	if !exists {
+		return fmt.Errorf("building type %s not found", c.BuildingType)
+	}
+
+	if state.Resources["code"] < building.Cost {
+		return fmt.Errorf("insufficient code: need %.0f, have %.0f",
+			building.Cost, state.Resources["code"])
+	}
+
+	state.Resources["code"] -= building.Cost
+	building.Count++
+	building.Cost *= 1.15 // scaling
+	state.Buildings[c.BuildingType] = building
+
+	return nil
+}
+
+// InputSystem now processes Commands
+type InputSystem struct {
+	commandQueue []Command
+}
+
+func NewInputSystem() *InputSystem {
+	return &InputSystem{
+		commandQueue: make([]Command, 0),
+	}
+}
+
+func (is *InputSystem) Process(state *GameState, _ time.Duration) error {
+	for _, cmd := range is.commandQueue {
+		if err := cmd.Execute(state); err != nil {
+			slog.Error("Command execution failed", "error", err, "command", fmt.Sprintf("%T", cmd))
+			// Decide: continue or return? Probably continue for games
+			continue
+		}
+	}
+	is.commandQueue = is.commandQueue[:0]
+	return nil
+}
+
+func (is *InputSystem) QueueCommand(cmd Command) {
+	is.commandQueue = append(is.commandQueue, cmd)
+}
+

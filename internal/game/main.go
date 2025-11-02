@@ -26,25 +26,24 @@ func NewGame() (*Game, error) {
 	}, nil
 }
 
-
-func (g *Game) Update(){
+func (g *Game) Update() {
 	g.Engine.Update(g.State)
 }
 
-func (g *Game) Start(){
+func (g *Game) Start() {
 	g.Engine.Start()
 }
 
-func (g *Game) Stop(){
+func (g *Game) Stop() {
 	g.Engine.Stop()
 }
 
-func (g *Game) QueueInput(token InputToken) {
-    if inputSys := GetSystem[*InputSystem](g.Engine); inputSys != nil {
-        inputSys.QueueInput(token)
-    }
+func (g *Game) QueueInput(command Command) {
+	if inputSys := GetSystem[*InputSystem](g.Engine); inputSys != nil {
+		inputSys.QueueCommand(command)
+	}
 }
 
-func (g *Game) GetState() GameState{
+func (g *Game) GetState() GameState {
 	return *g.State
 }
