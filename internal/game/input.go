@@ -12,20 +12,17 @@ type Command interface {
 }
 
 // Concrete command types
-type ManualClickCommand struct{}
 type ManualCodeCommand struct{}
 type PurchaseBuildingCommand struct {
 	BuildingType string
+	Amount       int
 }
 
-// Execute implementations
-func (c *ManualClickCommand) Execute(state *GameState) error {
-	if state.Resources == nil {
-		state.Resources = make(map[string]float64)
-	}
-	state.Resources["code"] += 1.0
-	return nil
+type UpgradeCommand struct {
+    BuildingID string
+    Level      int
 }
+
 
 func (c *ManualCodeCommand) Execute(state *GameState) error {
 	manualCodeId := "manual_code_"
@@ -97,4 +94,3 @@ func (is *InputSystem) Process(state *GameState, _ time.Duration) error {
 func (is *InputSystem) QueueCommand(cmd Command) {
 	is.commandQueue = append(is.commandQueue, cmd)
 }
-
