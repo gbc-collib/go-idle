@@ -6,6 +6,7 @@ import (
 	"os"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/gbc-collib/go-idle/internal/ui"
+	"github.com/gbc-collib/go-idle/internal/game"
 )
 
 func setupLogging() {
@@ -26,6 +27,11 @@ func main() {
 	model, err := ui.NewGameModel()
 	if err != nil {
 		slog.Error("Error creating game model", "error", err)
+		os.Exit(1)
+	}
+	err = game.InitGameData();
+	if err != nil {
+		slog.Error("Could not init Game data", "error", err)
 		os.Exit(1)
 	}
 

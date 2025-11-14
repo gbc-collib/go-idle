@@ -2162,3 +2162,11 @@ time=2025-11-01T23:20:40.418-04:00 level=DEBUG msg="Processed System" systemType
 time=2025-11-01T23:20:40.418-04:00 level=DEBUG msg="Processed System" systemType=*game.InputSystem
 time=2025-11-01T23:20:40.418-04:00 level=DEBUG msg="Processed System" systemType=*game.TimerSystem
 time=2025-11-01T23:20:40.418-04:00 level=DEBUG msg="Game Tick Processed" lastTick=2025-11-01T23:20:40.418-04:00
+time=2025-11-13T23:08:49.747-05:00 level=INFO msg="Creating new Game"
+time=2025-11-13T23:08:49.747-05:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-11-13T23:08:49.747-05:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x7a3380 0xc0000fe060 0x7a3380] lastTick:{wall:13996563894178612914 ext:686409 loc:0x7823a0} running:false}"
+time=2025-11-13T23:08:49.748-05:00 level=ERROR msg="Could not init Game data" error="open data/buildings.json: no such file or directory"
+time=2025-11-13T23:08:52.329-05:00 level=INFO msg="Creating new Game"
+time=2025-11-13T23:08:52.329-05:00 level=DEBUG msg="Created GameState" GameState="&{Resources:map[] Buildings:map[] ActiveTimers:[]}"
+time=2025-11-13T23:08:52.329-05:00 level=DEBUG msg="Created Engine" Engine="&{systems:[0x7a3380 0xc000172060 0x7a3380] lastTick:{wall:13996563896981808951 ext:686267 loc:0x7823a0} running:false}"
+time=2025-11-13T23:08:52.330-05:00 level=ERROR msg="Could not init Game data" error="open data/buildings.json: no such file or directory"

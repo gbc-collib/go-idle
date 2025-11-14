@@ -3,6 +3,7 @@ package ui
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/gbc-collib/go-idle/internal/game"
+	"github.com/charmbracelet/bubbles/list"
 )
 
 type shopItem struct {
@@ -22,7 +23,15 @@ func (i shopItem) FilterValue() string { return i.title }
 
 func (i shopItem) BuildingId() string { return i.buildingId }
 
-func (m GameModel) handleShopKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+func createShopList() list.Model {
+	items := []list.Item{
+		&shopItem{title: "Vim Plugin", description: "More plugins = better", buildingId: "vimPlugin"},
+		&shopItem{title: "Project Managers", description: "Certified Agile Scrum Grand Druid", buildingId: "projectManager"},
+	}
+	return list.New(items, list.NewDefaultDelegate(), 20, 10)
+}
+
+func (m *GameModel) handleShopKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	switch msg.String() {
 	case "enter":
 		selectedItem := m.shopList.SelectedItem()
@@ -36,6 +45,7 @@ func (m GameModel) handleShopKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	return m, nil
 }
 
-func (m GameModel) renderShop() string {
-	return m.shopList.View() // Render shop list
+func (m *GameModel) renderShop() string {
+	return m.shopList.View()
 }
+

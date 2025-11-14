@@ -8,6 +8,14 @@ type Building struct {
 	ProductionRate float64
 	Cost           float64
 }
+
+
+
+
+type BuildingState struct {
+    Count int // how many player has
+}
+
 type GameState struct {
 	Resources    map[string]float64
 	Buildings    map[string]Building

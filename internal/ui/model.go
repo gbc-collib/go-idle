@@ -1,7 +1,6 @@
 package ui
 
 import (
-	"log/slog"
 	"time"
 
 	"github.com/charmbracelet/bubbles/list"
@@ -20,30 +19,23 @@ const (
 	LastView
 )
 
-// Handles intelligently Cycling View modes
-func (m *GameModel) cycleViewMode() {
-	if m.CurrentView == LastView {
-		slog.Info("ViewMode Cycled to", "view", ViewMain)
-		m.CurrentView = ViewMain
-	}
-	m.CurrentView = +1
-	slog.Info("ViewMode Cycled to", "view", m.CurrentView+1)
-
-}
-
-// GameModel is the Bubble Tea model for the game UI.
 type GameModel struct {
 	game           *game.Game
 	buildingsTable table.Model
-	CurrentView    ViewMode
 	shopList       list.Model
+
+	CurrentView ViewMode
 
 	showHelp   bool
 	startTime  time.Time
 	lastUpdate time.Time
+
+	windowWidth  int
+	windowHeight int
 }
 
-// NewGameModel creates and initializes a new game model.
+// ---------- Initialization ----------
+
 func NewGameModel() (*GameModel, error) {
 	g, err := game.NewGame()
 	if err != nil {
@@ -52,20 +44,17 @@ func NewGameModel() (*GameModel, error) {
 	g.Start()
 
 	now := time.Now()
-	return &GameModel{
+	model := &GameModel{
 		game:           g,
 		buildingsTable: createBuildingsTable(),
+		shopList:       createShopList(),
 		showHelp:       false,
 		startTime:      now,
 		lastUpdate:     now,
-	}, nil
-}
+		CurrentView:    ViewMain,
+	}
 
-func createShopList() list.Model {
-	shopItems := make([]shopItem, 2)
-	shopItems[0] = shopItem{title: "Vim Plugin", description: "More plugins = better right?", buildingId: "vimPlugin"}
-	shopItems[1] = shopItem{title: "Project Managers", description: "Certified Agile Scrum ceremony Grand Druid", buildingId: "projectManager"}
-	shopList := list.New(shopItems, list.NewDefaultDelegate(), 0, 0)
+	return model, nil
 }
 
 func createBuildingsTable() table.Model {
@@ -75,88 +64,65 @@ func createBuildingsTable() table.Model {
 		{Title: "Production", Width: 12},
 		{Title: "Cost", Width: 10},
 	}
-
-	// Start with empty rows - will be populated from GameState
-	rows := []table.Row{}
-
-	t := table.New(
+	return table.New(
 		table.WithColumns(columns),
-		table.WithRows(rows),
+		table.WithRows([]table.Row{}),
 		table.WithFocused(false),
 		table.WithHeight(7),
 	)
-
-	s := table.DefaultStyles()
-	s.Header = s.Header.
-		BorderStyle(lipgloss.NormalBorder()).
-		BorderForeground(primaryColor).
-		BorderBottom(true).
-		Bold(false).
-		Foreground(primaryColor)
-	s.Selected = s.Selected.
-		Foreground(accentColor).
-		Bold(false)
-
-	t.SetStyles(s)
-	return t
 }
 
-type tickMsg time.Time
+// ---------- BubbleTea Methods ----------
 
-// Init initializes the model and starts the tick loop.
-func (m GameModel) Init() tea.Cmd {
-	return tea.Tick(time.Millisecond*100, func(t time.Time) tea.Msg {
+func (m *GameModel) Init() tea.Cmd {
+	return tickCmd()
+}
+
+func tickCmd() tea.Cmd {
+	return tea.Tick(500*time.Millisecond, func(t time.Time) tea.Msg {
 		return tickMsg(t)
 	})
 }
 
-// Update handles incoming messages and updates the model.
-func (m GameModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+type tickMsg time.Time
+
+func (m *GameModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
+
 	case tickMsg:
 		m.game.Update()
 		m.lastUpdate = time.Time(msg)
 		m.updateBuildingsTable()
-		return m, tea.Tick(time.Millisecond*100, func(t time.Time) tea.Msg {
-			return tickMsg(t)
-		})
+		return m, tickCmd()
 
 	case tea.KeyMsg:
-		switch msg.String() {
-		case "q", "ctrl+c":
-			m.game.Stop()
-			return m, tea.Quit
-		case " ":
-			m.game.QueueInput(&game.ManualCodeCommand{})
-		case "h":
-			m.showHelp = !m.showHelp
-		case "tab":
-			m.cycleViewMode()
-		case "1":
-			m.CurrentView = 1
-		case "2":
-			m.CurrentView = 2
-		case "3":
-			m.CurrentView = 3
+		if cmd, handled := m.handleGlobalKeys(msg); handled {
+			return m, cmd
 		}
+
 		switch m.CurrentView {
-		case ViewMain:
-			break
 		case ViewShop:
 			return m.handleShopKeyPress(msg)
 		case ViewUpgrades:
-			return m, nil
-			//return m.updateResearch(msg)
+			return m.handleUpgradesKeyPress(msg)
 		}
+	case tea.WindowSizeMsg:
+		m.windowWidth = msg.Width
+		m.windowHeight = msg.Height
+		// Resize UI components dynamically
+		m.buildingsTable.SetWidth(msg.Width / 2)
+		m.shopList.SetWidth(msg.Width / 3)
 	}
 	return m, nil
 }
 
-func (m GameModel) handleGlobalKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+// ---------- Key Handling ----------
+
+func (m *GameModel) handleGlobalKeys(msg tea.KeyMsg) (tea.Cmd, bool) {
 	switch msg.String() {
 	case "q", "ctrl+c":
 		m.game.Stop()
-		return m, tea.Quit
+		return tea.Quit, true
 	case " ":
 		m.game.QueueInput(&game.ManualCodeCommand{})
 	case "h":
@@ -164,14 +130,25 @@ func (m GameModel) handleGlobalKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	case "tab":
 		m.cycleViewMode()
 	case "1":
-		m.CurrentView = 1
+		m.CurrentView = ViewMain
 	case "2":
-		m.CurrentView = 2
+		m.CurrentView = ViewShop
 	case "3":
-		m.CurrentView = 3
+		m.CurrentView = ViewUpgrades
+	default:
+		return nil, false
 	}
-	return m, nil
+	return nil, true
 }
+
+func (m *GameModel) cycleViewMode() {
+	m.CurrentView++
+	if m.CurrentView >= LastView {
+		m.CurrentView = ViewMain
+	}
+}
+
+// ---------- Helpers ----------
 
 func (m *GameModel) updateBuildingsTable() {
 	state := m.game.GetState()
@@ -179,27 +156,33 @@ func (m *GameModel) updateBuildingsTable() {
 	m.buildingsTable.SetRows(rows)
 }
 
-// View renders the UI.
-func (m GameModel) View() string {
+// ---------- View Rendering ----------
+
+func (m *GameModel) View() string {
 	state := m.game.GetState()
 	uptime := time.Since(m.startTime)
 
 	header := RenderHeader("⚡ IDLE GAME STUDIO ⚡", "Incremental Game Development Engine v1.0.0")
-	shop := m.renderShop()
 
-	mainContent := lipgloss.JoinHorizontal(
-		lipgloss.Top,
-		RenderResourcePanel(state, uptime),
-		RenderBuildingsPanel(m.buildingsTable),
-		shop,
-	)
+	var mainContent string
+	switch m.CurrentView {
+	case ViewMain:
+		mainContent = lipgloss.JoinVertical(
+			lipgloss.Left,
+			RenderResourcePanel(state, uptime),
+			RenderBuildingsPanel(m.buildingsTable),
+		)
+	case ViewShop:
+		mainContent = m.shopList.View()
+	case ViewUpgrades:
+		//	mainContent = RenderUpgradesPanel()
+	}
 
-	// Get active timer if exists
+	// Timer status
 	var timer *game.Timer
 	if t, found := state.GetTimer("manual_code_"); found {
 		timer = &t
 	}
-
 	frozen := time.Since(m.lastUpdate) > time.Second
 	status := RenderStatusBar("CONTROLS: [SPACE] Write Code  [H] Help  [Q] Quit", timer, frozen)
 
@@ -209,4 +192,11 @@ func (m GameModel) View() string {
 	}
 
 	return lipgloss.JoinVertical(lipgloss.Left, header, mainContent, status, help)
+}
+
+// ---------- Stub Methods for Views ----------
+
+func (m *GameModel) handleUpgradesKeyPress(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	// TODO: implement upgrades navigation
+	return m, nil
 }
